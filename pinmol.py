@@ -567,7 +567,7 @@ if __name__ == "__main__":
         df = pd.read_csv(mb_userpath / f"{fname}_blast_results_picks.csv")
         for row in df:
             df = df.sort_values(['Positives', 'Pick#'], ascending=[True, True])
-            df.to_csv(mb_userpath+'/Picks_Sorted.csv', index=False)
+            df.to_csv(mb_userpath / f"{fname}_Picks_Sorted.csv', index=False)
 
         mb_pick = pd.read_csv(mb_userpath / f"{fname}_Picks_Sorted.csv", sep=',', usecols=[1,3])
         mb_pick.to_csv(mb_userpath / f"{fname}_mb_picks.csv", index=False, header = False)
