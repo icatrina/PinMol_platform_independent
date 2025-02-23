@@ -3,3 +3,5 @@ This is an update of the PinMol program with the following important changes:
 2. it is now platform-independent
 
 Please check the old repositories for dependencies and requirements.
+
+IN PROGRESS: a unified packages for designing Molecular Beacons, TFO and smFISH probes, which are ranked using a hybridization efficiency factor.
