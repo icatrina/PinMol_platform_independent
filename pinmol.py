@@ -616,3 +616,9 @@ if __name__ == "__main__":
 
     os.remove(mb_userpath / f"{fname}_mb_picks.csv")
     os.remove(mb_userpath / f"{fname}_blast_results_picks.csv")
+    os.remove(mb_userpath / f"{fname}_all_probes_sorted_ss.csv")
+    os.remove(mb_userpath / f"{fname}_base_file.csv")
+    os.remove(mb_userpath / f"{fname}_base_grouped.csv")
+    os.remove(mb_userpath / f"{fname}_new_input.txt")
+    os.remove(mb_userpath / f"{fname}_sscount1.csv")
+    os.remove(mb_userpath / f"{fname}_three_col.csv")
